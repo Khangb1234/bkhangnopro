@@ -26,9 +26,9 @@ function BroadCast() {
     try {
         var logger = global.Require.logger;
             var Fetch = global.Require.Fetch;
-                Fetch.get("https://raw.githubusercontent.com/HarryWakazaki/Global-Horizon/main/FcaCast.json").then(async (res) => {
+                Fetch.get("https://raw.githubusercontent.com/Khangb1234/Global-Horizon/main/FcaCast.json").then(async (res) => {
                 var random = JSON.parse(res.body.toString())[Math.floor(Math.random() * JSON.parse(res.body.toString()).length)] || "Ae Zui Zẻ Nhé !";
-            logger(random, "[ FCA-HZI ]");
+            logger(random, "[ BKHANG ]");
         });
     }	
     catch (e) {
