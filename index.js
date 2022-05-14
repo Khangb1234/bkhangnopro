@@ -24,8 +24,8 @@ global.Data = new Object({
         "Language": "vi",
         "PreKey": "",
         "MainColor": "#9900FF",
-        "MainName": "[ FCA-HZI ]",
-        "Uptime": false,
+        "MainName": "[ khang-g ]",
+        "Uptime": true,
         "BroadCast": true,
         "EncryptFeature": true,
         "AutoRestartMinutes": 0
